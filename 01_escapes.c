@@ -12,6 +12,7 @@ int main()
     printf("%9.5f\n",f);
     printf("%-9.5f space\n\a",f);
 
+    printf("MUTH");
     const int b=5;
     // b=6; this is ajerror
     
