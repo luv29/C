@@ -42,10 +42,13 @@ int main(int argc, char const *argv[])
     printf("%s ",b);
 
 
-    strncpy(sentence, "asdflkdsfj", 5);
+    strncpy(sentence, "asdflkdsfj", 5); // coopies 5 element of the string.
     printf("%s ",sentence);
 
+    strncat(sentence,"whole cannot ",5); // concatinates 5 elements of second string
+    printf("%s ",sentence);
 
+    printf("%d ",strcmpi("ABC","abc")); // compares ignoring case
     
     return 0;
 }
