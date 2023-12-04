@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     char a[50], b[]="copy";
     strcpy(a,b);//copies b to a.
     strcat(a,b);//concatinates a to b.
-    printf("%d ", strcmp(a,b)); // ascii difference of a and b (a-b)
+    printf("%d ", strcmp(a,b)); // ascii(a-b)= 0 then 0 if >0 then 1 else -1
     char * g = strchr(b,'p'); // returns pointer of the first time character occured.
 
     char s1[] = "dacil luv meet", s2[] = "luv";
