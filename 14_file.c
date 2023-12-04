@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
     ptr = fopen("file.txt", "a");
     char st[]= "\ni am adding text to the file through code";
     fprintf(ptr, "%s", st);
-    fputc('p', ptr);
+    fputc('\n', ptr);
     fputs("added a string", ptr);
 
     // writing is same as appending just existing text in the file vanishes

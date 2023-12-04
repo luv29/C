@@ -1,5 +1,3 @@
-not fully overridednother file
-you are reading or writing it
-be careful this is the most important data.
-i am adding text to the file through codepadded a string
-i am adding text to the file through codepadded a string
+not fully overridedu do. i was bored so thought lets do some keyboard wars.
+i am adding text to the file through code
+added a string
