@@ -21,6 +21,8 @@ int d=++a&&++b||++c;
     printf("b>>1 = %d\n",b>>1);
 
 
+    a=50;
+    printf("%d %u",~a,~a); // for signed int ~a = -a - 1
 
 	return 0;
 }
