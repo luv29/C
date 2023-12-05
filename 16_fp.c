@@ -18,5 +18,12 @@ int main(int argc, char const *argv[])
     int a= (*ptr) (5,6); // dereferencing a function pointer
     printf("the sum is %d\n", a);
     call(ptr);
+
+    /*
+    int (*p)[10] = pointer to 10 element array
+    int (*p[10]) (); // p is a 10 element array of function pointers
+    int *(*p) (char (*a)[]) = p = function poineter , argument = pointer to char array, return = int*
+
+    */
     return 0;
 }
