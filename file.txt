@@ -1,3 +1,8 @@
-not fully overridedu do. i was bored so thought lets do some keyboard wars.
+not fully overridedused for file handiling.
+hope you will understand.
+i am adding text to the file through code
+added a string
+i am adding text to the file through code
+added a string
 i am adding text to the file through code
 added a string

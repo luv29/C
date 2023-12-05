@@ -16,7 +16,10 @@ int main(int argc, char const *argv[])
     c=fgetc(ptr);
     printf("the character received is %c\n", c);
     c=fgetc(ptr);
-    printf("the character received is %c\n", c);
+    if(c==EOF)
+        printf("END OF FILE.\n");
+    else
+        printf("the character received is %c\n", c);
 
     char str[4];
     fgets(str,4,ptr);
@@ -46,6 +49,7 @@ int main(int argc, char const *argv[])
 
 
     fclose(ptr); // closes the file and make it available for another to use
+
 
     return 0;
 }
