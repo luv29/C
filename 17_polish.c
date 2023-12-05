@@ -9,6 +9,8 @@ int main()
 int d=++a&&++b||++c;
 	printf("%d %d %d %d\n",a,b,c,d);
 
+    printf("%d %d\n", 6/3*2, 3 + 6/3);
+
     a=50;
     b=45;
     printf("~a = %d\n", a = ~a); // bitwise not
